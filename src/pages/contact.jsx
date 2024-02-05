@@ -31,7 +31,7 @@ const ContactPage = () => {
     </Layout>
   )
 }
-
+<br/>
 class ContactForm extends React.Component {
 
   render() {
