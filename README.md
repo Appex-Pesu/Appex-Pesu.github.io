@@ -19,8 +19,11 @@ At AppEx, we leverage the power of modern technologies to create robust and effi
 - *Gatsby*: A blazing-fast static site generator that empowers developers to build websites with React.
 - *GraphQL*: A query language for APIs that enables us to efficiently request only the data we need.
 
-
-
+**Credits :**
+- Hemanth S Banur - [arjuuuuunnnnn](https://github.com/arjuuuuunnnnn)
+- Atheek Hebbar - [atheek2003](https://github.com/atheek2003)
+- B R Arjun - [BRArjun](https://github.com/BRArjun)
+- B C Samrudh - [bcsamrudh](https://github.com/bcsamrudh)
 
 
 
