@@ -36,7 +36,7 @@ class ContactForm extends React.Component {
 
   render() {
     return (
-      <br/>
+      
       <div>
         <p style={{ fontSize: '20px', color: 'white' }}>
           🚀 Elevate your skills and passion for app and web development! <br/>
