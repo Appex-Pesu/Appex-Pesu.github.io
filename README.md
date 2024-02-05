@@ -18,10 +18,7 @@ A personal portfolio website created using [GatsbyJS](https://www.gatsbyjs.org).
   - The right image size for every screen size
   - WebP support for compatible browsers
   - Lazy-Loading
-- SEO
-  - Schema.org JSONLD
-  - OpenGraph Tags
-  - Twitter Tags
+
 
 <br>
 
@@ -34,11 +31,5 @@ A personal portfolio website created using [GatsbyJS](https://www.gatsbyjs.org).
   <a href="https://tailwindcss.com"><img src="https://user-images.githubusercontent.com/16360374/54067382-2b8d0a80-41f4-11e9-8613-98edcad9e89f.png" alt="TailwindCSS" height="40"></a>
   <a href="https://www.styled-components.com/"><img src="https://user-images.githubusercontent.com/16360374/54067384-2def6480-41f4-11e9-9e55-a32e72ed23de.png" alt="Styled Components" height="40"></a>
   <a href="https://www.react-spring.io/"><img src="https://user-images.githubusercontent.com/16360374/54067378-26c85680-41f4-11e9-8cca-552b091b267b.png" alt="React Spring" height="40"></a>
-  <a href="https://disqus.com/"><img src="https://user-images.githubusercontent.com/16360374/55284185-43087080-5326-11e9-9931-cf0baddc2684.png" alt="Disqus" height="40"></a>
 </p>
 
-<br /><br />
-
-<p align="center">
-  <img src="./pagespeed.svg" alt="PageSpeed Insights" height="175px" />
-</p>
