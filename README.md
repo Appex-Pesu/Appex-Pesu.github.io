@@ -1,23 +1,27 @@
-<p align="right">
-  <a href="https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-cara"><img src="https://circleci.com/gh/LekoArts/gatsby-starter-portfolio-cara.svg?style=svg" alt="CircleCI"/></a>
-  <a href="https://app.netlify.com/sites/brettstevenson/deploys"><img src="https://api.netlify.com/api/v1/badges/64741f43-3afe-4692-b65f-b6c258333519/deploy-status" alt="Netlify Status"/></a>
-</p>
+
 
 # Appex-Pesu.io
 
-A personal portfolio website created using [GatsbyJS](https://www.gatsbyjs.org).  
+# AppEx: Web and App Development Club
 
-## Features  
+Welcome to AppEx, your go-to community for web and app development enthusiasts! We are passionate about creating cutting-edge applications and websites using the latest technologies. Join us on this exciting journey where innovation meets collaboration.
 
-- Multi-page layout
-- [TailwindCSS](https://tailwindcss.com/) & [styled-components](https://www.styled-components.com/) for styling
-- [React Spring](https://github.com/drcmda/react-spring) for animations
-- WebApp Manifest Support
-- Offline Support
-- Responsive images
-  - The right image size for every screen size
-  - WebP support for compatible browsers
-  - Lazy-Loading
+## About Us
+
+AppEx is a dynamic club that brings together developers, designers, and tech enthusiasts to explore the realms of web and app development. Our mission is to foster a creative and supportive environment for learning and building remarkable projects.
+
+## Technologies We Love
+
+At AppEx, we leverage the power of modern technologies to create robust and efficient applications. Our primary stack includes:
+
+- *React*: A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- *Tailwind CSS*: A utility-first CSS framework that helps in building modern and responsive designs.
+- *Gatsby*: A blazing-fast static site generator that empowers developers to build websites with React.
+- *GraphQL*: A query language for APIs that enables us to efficiently request only the data we need.
+
+
+
+
 
 
 <br>
