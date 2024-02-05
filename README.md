@@ -3,7 +3,7 @@
   <a href="https://app.netlify.com/sites/brettstevenson/deploys"><img src="https://api.netlify.com/api/v1/badges/64741f43-3afe-4692-b65f-b6c258333519/deploy-status" alt="Netlify Status"/></a>
 </p>
 
-# BrettStevenson.io
+# Appex-Pesu.io
 
 A personal portfolio website created using [GatsbyJS](https://www.gatsbyjs.org).  
 
