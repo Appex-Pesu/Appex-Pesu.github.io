@@ -14,29 +14,32 @@ import useWindowSize from 'hooks/useWindowSize'
 
 
 const ContactPage = () => {
-  const windowSize = useWindowSize()
+  const windowSize = useWindowSize();
   return (
-    <Layout windowSize={windowSize}>
-      <Header>
-        <BigTitle className='md:mt-32 mt-18'>
-          Join 
-          Us<span className='text-accent accent-dot'>.</span>
-        </BigTitle>
-      </Header>
-      <Content className='-mt-8 pb-32 md:mt-0 md:pb-28 lg:pt-6' role='main'>
-        <Inner className='my-8 sm:mt-8 mt-0'>
-          <ContactForm/>
-        </Inner>
-      </Content>
-    </Layout>
-  )
-}
+    <>
+      <Layout windowSize={windowSize}>
+        <Header>
+          <BigTitle className='md:mt-32 mt-18'>
+            Join 
+            Us<span className='text-accent accent-dot'>.</span>
+          </BigTitle>
+        </Header>
+        <Content className='-mt-8 pb-32 md:mt-0 md:pb-28 lg:pt-6' role='main'>
+          <Inner className='my-8 sm:mt-8 mt-0'>
+            <ContactForm />
+          </Inner>
+        </Content>
+      </Layout>
+    </>
+  );
+};
+
+
+
 
 class ContactForm extends React.Component {
-
   render() {
     return (
-      
       <div>
         <p style={{ fontSize: '20px', color: 'white' }}>
           🚀 Elevate your skills and passion for app and web development! <br/>
@@ -46,15 +49,13 @@ class ContactForm extends React.Component {
         </p>
   
         <div className='mt-8 w-full lg:w-9/10 xl:w-5/6'>
-  <a href={'https://docs.google.com/forms/d/e/1FAIpQLSfV4NjLprhT5TPgzEr4FhZUQpxyNW_toHHEPOocfcE4Vqqc3Q/viewform?usp=sf_link'}>
-    <Button value={'Recruitment Form'} />
-  </a>
-</div>
-
+          <a href={'https://docs.google.com/forms/d/e/1FAIpQLSfV4NjLprhT5TPgzEr4FhZUQpxyNW_toHHEPOocfcE4Vqqc3Q/viewform?usp=sf_link'}>
+            <Button value={'Recruitment Form'} />
+          </a>
+        </div>
       </div>
     );
   }
-  
 }
 
       
