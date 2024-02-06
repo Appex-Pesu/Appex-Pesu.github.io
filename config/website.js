@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       name: `Events`,
-      link: `/events.html`,
+      link: `/events`,
       external: true,
     },
     {
