@@ -15,7 +15,7 @@ export const StyledSubtitle = styled.p`
 `
 
 export const BigTitle = (props) => (
-  <StyledBigTitle className={`font-title font-bold text-white text-opacity-95 tracking-normal leading-tighter w-full text-6xl sm:text-8xl xl:text-9xl mt-4 mb-6 ml-0${props.className ? ` ${props.className}` : ''}`}>
+  <StyledBigTitle className={`gradient-text-green relative inline-block text-5xl font-title font-bold text-white text-opacity-80 tracking-normal my-6 ml-0 lg:text-5xl md:ml-10 transition-all duration-200 ease-in-out${props.className ? ` ${props.className}` : ''}`}>
     {props.children}
   </StyledBigTitle>
 )
