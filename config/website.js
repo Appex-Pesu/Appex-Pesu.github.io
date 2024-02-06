@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       name: `Events`,
-      link: `Appex-Pesu.github.io/events.html`,
+      link: `/events.html`,
       external: true,
     },
     {
