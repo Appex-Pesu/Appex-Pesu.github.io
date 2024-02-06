@@ -2,9 +2,9 @@
   buttonText: Enter the Continental Hotel
 - text: Your lack of direction is astounding.
   buttonText: Ask for directions
-- text: The cake is a lie.
+- text: Are you lost? The internet is a maze, and you are in the wrong corridor.
   buttonText: Open a portal
-- text: You can't always get what you want.
+- text: You cannot always get what you want.
   buttonText: Get what you need
-- text: Return to the NPC that gave you this quest.
-  buttonText: Fast travel
+- text:  Page under construction. We lost the blueprint. Oops!
+  buttonText: Return back
