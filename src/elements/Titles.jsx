@@ -27,7 +27,7 @@ export const Title = (props) => (
 )
 
 export const SectionTitle = (props) => (
-  <StyledTitle className={`relative inline-block font-title text-5xl lg:text-6xl font-bold text-white text-opacity-90 tracking-normal leading-none my-3 mt-0 sm:mb-6 ml-0 transition-all duration-200 ease-in-out${props.className ? ` ${props.className}` : ''}`}>
+  <StyledTitle className={`gradient-text-green relative inline-block text-5xl font-title font-bold text-white text-opacity-80 tracking-normal my-6 ml-0 lg:text-5xl md:ml-10 transition-all duration-200 ease-in-out${props.className ? ` ${props.className}` : ''}`}>
     {props.children}
   </StyledTitle>
 )
@@ -38,3 +38,8 @@ export const Subtitle = (props) => (
   </StyledSubtitle>
 )
 
+export const SectionTitleforDomain = (props) => (
+  <StyledTitle className={`gradient-text-red relative inline-block text-5xl font-title font-bold text-white text-opacity-80 tracking-normal my-6 ml-0 lg:text-5xl md:ml-10 transition-all duration-200 ease-in-out${props.className ? ` ${props.className}` : ''}`}>
+    {props.children}
+  </StyledTitle>
+)
