@@ -9,6 +9,7 @@ import Inner from 'elements/Inner'
 // Components
 import ProjectCard from 'components/ProjectCard'
 import Cube from 'components/Cube'
+import { SectionTitleforDomain } from '../elements/Titles'
 
 
 const Projects = ({  id, projects, windowSize }) => {
@@ -34,7 +35,7 @@ const Projects = ({  id, projects, windowSize }) => {
         <Inner className='mb-16'>
           <div className='section-title flex items-baseline'>
             <Cube color='red' />
-            <SectionTitle>Domains</SectionTitle>
+            <SectionTitleforDomain>Domains</SectionTitleforDomain>
           </div>
           <div className='grid grid-cols-1 gap-8 justify-between mt-8 md:grid-cols-2 md:gap-12 xl:gap-16'>
             {trail.map((style, index) => (
