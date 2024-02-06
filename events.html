@@ -6,17 +6,17 @@
     <title>Solve It, App It</title>
     <style>
         @font-face {
-            font-family: 'ModernFont';
-            src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+            font-family: 'TTNorm';
+            src: url('https://fonts.googleapis.com/css2?family=TT+Norms:wght@400;700&display=swap');
         }
 
         body {
             margin: 0;
             padding: 0;
-            font-family: 'ModernFont', sans-serif; /* Use ModernFont */
-            background-color: #000; /* Set background color to black */
+            font-family: 'TTNorm', sans-serif; /* Use TTNorm font */
+            background: transparent; /* Transparent background */
             color: #fff; /* Set font color to white */
-            line-height: 1.8; /* Increase line spacing */
+            line-height: 1.6; /* Increase line spacing */
         }
 
         #image-container {
@@ -44,10 +44,9 @@
         }
 
         #description-container {
-            height: 60vh; /* 3/4th of the viewport height */
             padding: 20px;
             box-sizing: border-box;
-            background-color: #000; /* Set background color to black */
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             margin-top: -20px; /* Overlapping with image container */
@@ -56,7 +55,7 @@
         h2 {
             color: #fff; /* Set font color to white */
             border-bottom: none; /* Remove the horizontal line */
-            padding-bottom: 5px;
+            padding-bottom: 10px;
             margin-bottom: 20px; /* Increase spacing below h2 */
         }
 
@@ -79,7 +78,6 @@
 <body>
     <div id="image-container">
         <img src="src/images/notification.jpg" alt="Description of your image">
-        
     </div>
     
     <div id="description-container">
