@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       name: `Events`,
-      link: ``,
+      link: `https://appex-pesu.vercel.app/design`,
       external: true,
     },
     {
