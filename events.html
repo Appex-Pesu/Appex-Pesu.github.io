@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solve It, App It</title>
     <style>
+        @font-face {
+            font-family: 'TTNorms';
+            src: url('https://fonts.googleapis.com/css2?family=TT+Norms:wght@400;700&display=swap');
+        }
+
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'TTNorms', sans-serif; /* Use TTNorms font */
             background-color: #000; /* Set background color to black */
             color: #fff; /* Set font color to white */
         }
 
         #image-container {
-            height: 60vh; /* 1/4th of the viewport height */
+            height: 40vh; /* 1/4th of the viewport height */
             overflow: hidden;
             position: relative;
             text-align: center;
@@ -23,7 +28,7 @@
         #image-container img {
             width: auto;
             height: 100%;
-            max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+            max-width: 80%; /* Decrease the width of the image */
             object-fit: cover;
             filter: brightness(100%);
         }
@@ -38,7 +43,7 @@
         }
 
         #description-container {
-            height: 40vh; /* 3/4th of the viewport height */
+            height: 60vh; /* 3/4th of the viewport height */
             padding: 20px;
             box-sizing: border-box;
             background-color: #000; /* Set background color to black */
@@ -55,6 +60,7 @@
 
         p {
             line-height: 1.6;
+            color: #fff; /* Set font color to white */
         }
 
         a {
@@ -70,7 +76,7 @@
 </head>
 <body>
     <div id="image-container">
-        <img src="../static/notification.jpg" alt="notification.jpg">
+        <img src="src/images/notification.jpg" alt="Description of your image" width="800" height="600">
         
     </div>
     
@@ -79,7 +85,7 @@
         <p>
             Greetings!<br/><br/>
 
-            APPEX welcomes everyone to contribute to our mission of problem-solving through technology. We're thrilled to announce our online event, "Solve It, App It", with a prize pool of Rs. 3000.<br/><br/>
+            <span style="color: #3498db;">APPEX welcomes everyone to contribute to our mission of problem-solving through technology. We're thrilled to announce our online event, "Solve It, App It", with a prize pool of Rs. 3000.</span><br/><br/>
 
             In our quest for innovative solutions, we invite app enthusiasts to contest and showcase their problem-solving skills. This is an online contest open to students from all branches and campuses of PES University. No coding required. The most distinctive ideas win exciting cash prizes!<br/><br/>
 
@@ -88,17 +94,17 @@
         <a href="https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit" target="_blank">Register Now</a><br/>
         <br/>
         <p>
-            To know more, follow our Instagram @appex.pesu:<br/>
+            <span style="color: #3498db;">To know more, follow our Instagram @appex.pesu:</span><br/>
         </p>
         <a href="https://www.instagram.com/appex.pesu?igsh=MWF5YzIwaDR3OGRqaA==" target="_blank">Visit for more details</a><br/>
         <br/><br/>
         <p>
             For any queries, contact:<br/>
-            Sharanya G S - +91 73493 91048<br/>
-            Sanjana Rathish - +91 70227 61027<br/> <br/>
-            Thanks and Regards,<br/>
+            <span style="color: #3498db;">Sharanya G S - +91 73493 91048</span><br/>
+            <span style="color: #3498db;">Sanjana Rathish - +91 70227 61027</span><br/> <br/>
+            <span style="color: #3498db;">Thanks and Regards,<br/>
             Dept. of CSE, RR Campus<br/>
-            PES University.<br/>
+            PES University.</span><br/>
         </p>
     </div>
 </body>
