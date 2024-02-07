@@ -84,9 +84,12 @@ const Events = ({ data, ...props }) => {
         </div>
         <div style={{ textAlign: 'center' }}>
           <a href="https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit" target="_blank">Register Now</a><br/><br/>
-          <p>
+          <div id="description-container">
+            <p>
             To know more, follow our Instagram @appex.pesu:<br/>
           </p>
+          </div>
+          
           <a href="https://www.instagram.com/appex.pesu?igsh=MWF5YzIwaDR3OGRqaA==" target="_blank">Visit for more details</a><br/><br/>
           <div id="description-container">
           <p>
