@@ -84,15 +84,13 @@ const Events = ({ data, ...props }) => {
       <img src="notification.jpg" alt="Description of your image" />
     </div>
       <div id="description-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <h2>Solve It, App It</h2>
+        
         <p>
           Greetings!<br/><br/>
           APPEX welcomes everyone to contribute to our mission of problem-solving through technology. We're thrilled to announce our online event, "Solve It, App It", with a prize pool of Rs. 3000.<br/><br/>
           In our quest for innovative solutions, we invite app enthusiasts to contest and showcase their problem-solving skills. This is an online contest open to students from all branches and campuses of PES University. No coding required. The most distinctive ideas win exciting cash prizes!<br/><br/>
           If you're passionate about app-technology and want to participate by presenting your ideas, we invite you to pitch your app solutions at the link below :<br/>
         </p>
-        </div>
-        <div>
         <a href="https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit" target="_blank">Register Now</a><br/>
         <br/>
         <p>
@@ -108,7 +106,8 @@ const Events = ({ data, ...props }) => {
           Dept. of CSE, RR Campus<br/>
           PES University.<br/>
         </p>
-      </div>
+        </div>
+        
       </div>
    
     </Layout>
