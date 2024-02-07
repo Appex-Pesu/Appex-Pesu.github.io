@@ -82,7 +82,7 @@ const Events = ({ data, ...props }) => {
             If you're passionate about app-technology and want to participate by presenting your ideas, we invite you to pitch your app solutions at the link below:<br/>
           </p>
         </div>
-     User
+     
  <div style={{ textAlign: 'center' }}>
           <a href="https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit" target="_blank">Register Now</a><br/><br/>
           <div id="description-container">
