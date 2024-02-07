@@ -88,6 +88,7 @@ const Events = ({ data, ...props }) => {
             To know more, follow our Instagram @appex.pesu:<br/>
           </p>
           <a href="https://www.instagram.com/appex.pesu?igsh=MWF5YzIwaDR3OGRqaA==" target="_blank">Visit for more details</a><br/><br/>
+          <div id="description-container">
           <p>
             For any queries, contact:<br/>
             Sharanya G S - +91 73493 91048<br/>
@@ -96,6 +97,7 @@ const Events = ({ data, ...props }) => {
             Dept. of CSE, RR Campus<br/>
             PES University.<br/>
           </p>
+          </div>
         </div>
       </div>
     </Layout>
