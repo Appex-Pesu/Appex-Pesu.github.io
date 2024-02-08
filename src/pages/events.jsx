@@ -71,7 +71,7 @@ const Events = ({ data, ...props }) => {
           `}
         </style>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <img src="src/images/notification.jpg" alt="Description of your image" />
+          <img src="src/notification.jpg" alt="Description of your image" />
         </div>
         <div id="description-container">
           <h2>Solve It, App It</h2>
