@@ -6,7 +6,7 @@ module.exports = {
   siteTitleShort: `Appex`, // short_name for manifest
   siteHeadline: `App development club`, // Headline for schema.org JSONLD
   siteUrl: `https://brettstevenson.io`, // Domain of your site. No trailing slash!
-  siteKeywords: [`appex`, `brett`, `stevenson`, `fullstack`, `software`, `engineer`, `developer`, `design`, `portfolio`, `blog`, `python`, `javascript`, `react`],
+  siteKeywords: [`Appex`, `pesu`, `pesuniversity`, `Appexpesu`, `appex`, `appexpesu`, `appdevelopment` ],
   siteLanguage: `en`, // Language Tag on <html> element
   siteLogo: `C:\Users\Atheek\Desktop\Appex\src\images\logo.png`, // Used for SEO and manifest
   siteDescription: `Appex`,
@@ -39,13 +39,12 @@ module.exports = {
       external: false,
     },
   ],
-  disqusShortname: `tterb-gatsby`,
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
-  twitterUsername: `@bstevensondev`, // Twitter Username
-  // ogSiteName: 'cara', // Facebook Site Name
-  // ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: `UA-82760104-1`, // Google Analytics ID
-  googleOptimizeID: `GTM-P9NNBQ3`, // Google Optimize container ID
+  disqusShortname: ``,
+  
+  twitterUsername: ``,
+  
+  googleAnalyticsID: ``, 
+  googleOptimizeID: ``, // Google Optimize container ID
   // Manifest and Progress color
-  backgroundColor: `#23262B`,
+  backgroundColor: ``,
 }
