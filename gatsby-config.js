@@ -23,14 +23,10 @@ module.exports = {
   siteMetadata: {
     title: `APPEX`,
     description: `APP DEVELOPMENT CLUB`,
-    siteUrl: `https://brettstevenson.io`,
+    siteUrl: `https://appex-pesu.vercel.app`,
     author: `APPEX`,
-    keywords: [
-      `APPEX`, `full-stack`, `software`, `developer`,
-      `design`, `portfolio`, `blog`, `python`, `javascript`,
-      `react`, `gatsby`, `website optimization`,
-    ],
-    disqusShortname: `tterb-gatsby`,
+    keywords: [`Appex`, `pesu`, `pesuniversity`, `Appexpesu`, `appex`, `appexpesu`, `appdevelopment` ],
+    disqusShortname: ``,
     menuLinks: [
       {
         name: `Home`,
@@ -39,7 +35,7 @@ module.exports = {
       },
       {
         name: `Design`,
-        link: `https://tterb-design.netlify.app/`,
+        link: ``,
         external: true,
       },
       {
