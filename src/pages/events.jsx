@@ -1,14 +1,15 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from 'react';
+import { graphql } from 'gatsby';
+import '@fontsource/roboto'; // Import a modern font
 // Components
-import Layout from 'components/Layout'
+import Layout from 'components/Layout';
 // Hooks
-import useWindowSize from 'hooks/useWindowSize'
+import useWindowSize from 'hooks/useWindowSize';
 
 const Events = ({ data, ...props }) => {
-  const windowSize = useWindowSize()
-  const avatar = data.avatar.childImageSharp.gatsbyImageData
-  const projects = data.projects.nodes || []
+  const windowSize = useWindowSize();
+  const avatar = data.avatar.childImageSharp.gatsbyImageData;
+  const projects = data.projects.nodes || [];
 
   return (
     <Layout navLogo={false} windowSize={windowSize}>
@@ -18,7 +19,7 @@ const Events = ({ data, ...props }) => {
             body {
               margin: 0;
               padding: 0;
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-family: 'Roboto', sans-serif; /* Use the imported font */
               background-color: #000;
               color: #fff;
             }
@@ -83,29 +84,70 @@ const Events = ({ data, ...props }) => {
           </p>
         </div>
         <div style={{ textAlign: 'center' }}>
-          <a href="https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit" target="_blank">Register Now</a><br/><br/>
+          <button
+            style={{
+              backgroundColor: '#3498db',
+              color: '#fff',
+              padding: '10px 20px',
+              borderRadius: '5px',
+              fontSize: '16px',
+              fontWeight: 'bold',
+              textDecoration: 'none',
+              cursor: 'pointer',
+              border: 'none',
+              margin: '10px 0',
+            }}
+          >
+            <a
+              href="https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit"
+              target="_blank"
+              style={{ color: '#fff', textDecoration: 'none' }}
+            >
+              Register Now
+            </a>
+          </button>
           <div id="description-container">
             <p>
-            To know more, follow our Instagram @appex.pesu:<br/>
-          </p>
+              To know more, follow our Instagram @appex.pesu:<br/>
+            </p>
           </div>
-          
-          <a href="https://www.instagram.com/appex.pesu?igsh=MWF5YzIwaDR3OGRqaA==" target="_blank">Visit for more details</a><br/><br/>
+          <button
+            style={{
+              backgroundColor: '#3498db',
+              color: '#fff',
+              padding: '10px 20px',
+              borderRadius: '5px',
+              fontSize: '16px',
+              fontWeight: 'bold',
+              textDecoration: 'none',
+              cursor: 'pointer',
+              border: 'none',
+              margin: '10px 0',
+            }}
+          >
+            <a
+              href="https://www.instagram.com/appex.pesu?igsh=MWF5YzIwaDR3OGRqaA=="
+              target="_blank"
+              style={{ color: '#fff', textDecoration: 'none' }}
+            >
+              Visit for more details
+            </a>
+          </button>
           <div id="description-container">
             <p>
-            For any queries, contact:<br/>
-            Sharanya G S - +91 73493 91048<br/>
-            Sanjana Rathish - +91 70227 61027<br/><br/>
-            Thanks and Regards,<br/>
-            Dept. of CSE, RR Campus<br/>
-            PES University.<br/>
-          </p>
+              For any queries, contact:<br/>
+              Sharanya G S - +91 73493 91048<br/>
+              Sanjana Rathish - +91 70227 61027<br/><br/>
+              Thanks and Regards,<br/>
+              Dept. of CSE, RR Campus<br/>
+              PES University.<br/>
+            </p>
           </div>
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const indexQuery = graphql`{
   avatar: file(relativePath: {eq: "me.jpg"}) {
@@ -132,6 +174,6 @@ export const indexQuery = graphql`{
     }
   }
 }
-`
+`;
 
 export default Events;
