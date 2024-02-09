@@ -1,0 +1,15 @@
+FROM node:alpine AS development
+
+ENV NODE_ENV development
+
+WORKDIR Appex-Pesu.github.io
+
+COPY ./package*.json /Appex-Pesu.github.io 
+
+RUN npm install
+
+COPY . . 
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]
