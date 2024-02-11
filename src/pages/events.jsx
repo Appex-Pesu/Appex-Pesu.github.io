@@ -102,7 +102,7 @@ const Events = ({ data, ...props }) => {
             Register Now
           </button> */}
           <br/><br/>
-            <p>
+            <p style={{ textAlign: 'center' }}>
               Registration Closed
             </p>
           <div id="description-container">
