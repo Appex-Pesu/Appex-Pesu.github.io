@@ -98,10 +98,13 @@ const Events = ({ data, ...props }) => {
         </div>
         <div style={{ textAlign: 'center' }}>
           {/* Added button for Register Now link */}
-          <button onClick={() => window.open("https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit", "_blank")}>
+{/*           <button onClick={() => window.open("https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit", "_blank")}>
             Register Now
-          </button>
+          </button> */}
           <br/><br/>
+            <p>
+              Registration Closed
+            </p>
           <div id="description-container">
             <p>
               To know more, follow our Instagram @appex.pesu:<br/>
