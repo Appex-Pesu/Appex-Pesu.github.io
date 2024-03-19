@@ -24,7 +24,7 @@ class Logo extends React.Component {
             className='logo max-w-full h-auto m-0 overflow-visible box-border z-999'
             src={logoImage} // Use your logo image source here
             alt='Logo'
-            style={{ width: 'auto', height: 'auto', maxWidth: '100%', maxHeight: '100%', transform: 'scale(2)' }}
+            style={{ width: 'auto', height: 'auto', maxWidth: '100%', maxHeight: '100%', transform: 'scale(3)' }}
           />
           {children}
         </span>
