@@ -73,6 +73,16 @@ class Logo extends React.Component {
             <path d="M0 0c1 3 1 3 .328 4.79L-.75 6.624l-1.047 1.852C-3 10-3 10-6 11c2.233-7.018 2.233-7.018 4-10z" transform="translate(343 348)" style="fill:#888"/>
             <path d="m0 0 2 1c-3.856 4.82-3.856 4.82-7.113 5.332C-7.08 6.315-9.042 6.166-11 6V5l3.25-.812C-4.435 3.138-2.561 2.254 0 0" transform="translate(255 344)" style="fill:#9a9a9a"/>
             <path d="M0 0c1 3 1 3-.437 6.188L-2 9l-4-1 2-1 1-3c1-3 1-3 3-4" transform="translate(358 328)" style="fill:#8d8d8d"/>
+            <filter id='dropshadow' height='150%' x='-25%' width='180%'>
+              <feGaussianBlur in='SourceAlpha' stdDeviation='4' />
+              <feOffset dx='-0.5' dy='1.5' result='offsetblur' />
+              <feComponentTransfer>
+                <feFuncA type='linear' slope='0.5' />
+              </feComponentTransfer>
+              <feMerge>
+                <feMergeNode /><feMergeNode in='SourceGraphic' />
+              </feMerge>
+            </filter>
           </svg>
           {children}
         </span>
