@@ -28,7 +28,7 @@ class Logo extends React.Component {
           />
           {children}
         </span>
-        <Title className='logo-title relative invisible font-medium text-white text-opacity-90 -top-0.5 opacity-0 group-hover:visible group-hover:opacity-100 group-focus:visible group-focus:opacity-100 ml-3 transition-opacity duration-200 ease-in-out cursor-default z-10'>&nbsp{siteTitle}</Title>
+        <Title className='logo-title relative invisible font-medium text-white text-opacity-90 -top-0.5 opacity-0 group-hover:visible group-hover:opacity-100 group-focus:visible group-focus:opacity-100 ml-3 transition-opacity duration-200 ease-in-out cursor-default z-10'>  {siteTitle}</Title>
       </PageLink>
     )
   }
