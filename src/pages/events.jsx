@@ -88,7 +88,7 @@ const Events = ({ data, ...props }) => {
           <img src="../notification.jpg" alt="Description of your image" />
         </div>
         <div id="description-container">
-          <h2>Solve It, App It</h2>
+          <h2>App Genesis</h2>
           <p>
             Greetings!<br/><br/>
             APPEX welcomes everyone to contribute to our mission of problem-solving through technology. We're thrilled to announce our online event, "Solve It, App It", with a prize pool of Rs. 3000.<br/><br/>
@@ -98,13 +98,13 @@ const Events = ({ data, ...props }) => {
         </div>
         <div style={{ textAlign: 'center' }}>
           {/* Added button for Register Now link */}
-{/*           <button onClick={() => window.open("https://docs.google.com/forms/d/10iH6e90jr2Vl5eX3oT9VgByzOQc8WVHkWcOxNiwaWas/edit", "_blank")}>
+          <button onClick={() => window.open("https://docs.google.com/forms/d/14IsNl95kTA7TQskZAoSceuQTamk-1EA7TCsEyjeOVQo/viewform?pli=1&pli=1&edit_requested=true", "_blank")}>
             Register Now
-          </button> */}
+          </button>
           <br/><br/>
-            <p style={{ textAlign: 'center' }}>
-              Registration Closed
-            </p>
+{/*             // <p style={{ textAlign: 'center' }}>
+            //   Registration Closed
+            // </p> */}
           <div id="description-container">
             <p>
               To know more, follow our Instagram @appex.pesu:<br/>
