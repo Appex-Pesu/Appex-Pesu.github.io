@@ -87,7 +87,7 @@ const Events = ({ data, ...props }) => {
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img src="../notification.jpg" alt="Description of your image" />
         </div>
-        <div id="description-container">
+{/*         <div id="description-container">
           <h2>App Genesis</h2>
           <p>
             Greetings!<br/><br/>
@@ -95,7 +95,17 @@ const Events = ({ data, ...props }) => {
             In our quest for innovative solutions, we invite app enthusiasts to contest and showcase their problem-solving skills. This is an online contest open to students from all branches and campuses of PES University. No coding required. The most distinctive ideas win exciting cash prizes!<br/><br/>
             If you're passionate about app-technology and want to participate by presenting your ideas, we invite you to pitch your app solutions at the link below:<br/>
           </p>
-        </div>
+        </div> */}
+        <div id="description-container">
+  <h2><strong>App Genesis </strong></h2>
+  <p>
+    Greetings!<br/><br/>
+    APPEX welcomes everyone to join us in shaping the future of app technology through creative ideation. We're excited to announce our inaugural event, "App Genesis ," where innovation meets imagination.<br/><br/>
+    In this ideathon, we invite participants to brainstorm and propose groundbreaking app ideas that address real-world challenges. Whether you're a seasoned developer or a visionary thinker, this event is your platform to showcase your problem-solving prowess. No coding skills required – just bring your innovative spirit!<br/><br/>
+    If you're passionate about app technology and eager to contribute your ideas to the digital landscape, we invite you to participate in the App Genesis Ideathon. Let's revolutionize the world, one app idea at a time!<br/>
+  </p>
+</div>
+
         <div style={{ textAlign: 'center' }}>
           {/* Added button for Register Now link */}
           <button onClick={() => window.open("https://docs.google.com/forms/d/14IsNl95kTA7TQskZAoSceuQTamk-1EA7TCsEyjeOVQo/viewform?pli=1&pli=1&edit_requested=true", "_blank")}>
