@@ -30,7 +30,7 @@ module.exports = {
     },
     {
       name: `Team`,
-      link: `/404`,
+      link: `/FourOhFour`,
       external: false,
     },
     {
