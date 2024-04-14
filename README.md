@@ -2,17 +2,17 @@
 
 # Appex-Pesu.io
 
-# AppEx: Web and App Development Club
+# Appex: Web and App Development Club
 
-Welcome to AppEx, your go-to community for web and app development enthusiasts! We are passionate about creating cutting-edge applications and websites using the latest technologies. Join us on this exciting journey where innovation meets collaboration.
+Welcome to Appex, your go-to community for web and app development enthusiasts! We are passionate about creating cutting-edge applications and websites using the latest technologies. Join us on this exciting journey where innovation meets collaboration.
 
 ## About Us
 
-AppEx is a dynamic club that brings together developers, designers, and tech enthusiasts to explore the realms of web and app development. Our mission is to foster a creative and supportive environment for learning and building remarkable projects.
+Appex is a dynamic club that brings together developers, designers, and tech enthusiasts to explore the realms of web and app development. Our mission is to foster a creative and supportive environment for learning and building remarkable projects.
 
 ## Technologies We Love
 
-At AppEx, we leverage the power of modern technologies to create robust and efficient applications. Our primary stack includes:
+At Appex, we leverage the power of modern technologies to create robust and efficient applications. Our primary stack includes:
 
 - *React*: A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - *Tailwind CSS*: A utility-first CSS framework that helps in building modern and responsive designs.
