@@ -108,13 +108,13 @@ const Events = ({ data, ...props }) => {
 
         <div style={{ textAlign: 'center' }}>
           {/* Added button for Register Now link */}
-          <button onClick={() => window.open("https://docs.google.com/forms/d/14IsNl95kTA7TQskZAoSceuQTamk-1EA7TCsEyjeOVQo/viewform?pli=1&pli=1&edit_requested=true", "_blank")}>
+{/*           <button onClick={() => window.open("https://docs.google.com/forms/d/14IsNl95kTA7TQskZAoSceuQTamk-1EA7TCsEyjeOVQo/viewform?pli=1&pli=1&edit_requested=true", "_blank")}>
             Register Now
-          </button>
+          </button> */}
           <br/><br/>
-{/*             // <p style={{ textAlign: 'center' }}>
-            //   Registration Closed
-            // </p> */}
+{             <p style={{ textAlign: 'center' }}>
+               Registration Closed
+             </p> */}
           <div id="description-container">
             <p>
               To know more, follow our Instagram @appex.pesu:<br/>
